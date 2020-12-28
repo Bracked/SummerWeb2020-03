@@ -1,0 +1,140 @@
+body{
+  font-family:"Times New Roman";
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  background-color: #e8e8e8;
+}
+
+.page{
+  padding  : 168px 0px 137px 0px;
+  max-width: 841px;
+  margin: 0px auto;
+
+
+}
+
+.header{
+text-align: center;
+margin-bottom: 70px;
+
+}
+.header__label{
+  opacity: 0.6;
+  color: #273d46;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  padding-top: 15px;
+    background: url(img/icon/bg.svg)50% 300px no-repeat;
+}
+.header__text{
+  color: #273d46;
+  font-family: "Times New Roman PSMT";
+  font-size: 36px;
+  line-height: 50px;
+  max-width:725px;
+  margin: 0px auto;
+
+}
+
+.travel{
+
+background: url(img/icon/bg.svg) center;
+}
+.travel__image{
+box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+background-color: #fff;
+padding:10px;
+margin-bottom:85px;
+}
+.travel__image img{
+  max-width: 100%;
+}
+.travel__text{
+opacity: 0.8;
+color: #273d46;
+font-family: "Times New Roman PSMT";
+font-size: 24px;
+line-height: 40px;
+padding: 0px 4 5px;
+
+}
+.travel__text p{
+margin-bottom: 40 px;
+}
+.travel__text p:last-child{
+  margin: 0px:
+}
+.share{
+
+
+
+}
+.share__list{
+margin-bottom: 59px;
+}
+.share__list li{
+list-style: none;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 12px;
+  background: url(img/icon/icon.png) left no-repeat;
+  padding-left: 35px;
+
+}
+
+
+.share__list li:first-child{
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+color: #273d46;
+}
+.share__list li:nth-child(2){
+color: #80b7b3;
+}
+.share__list li:nth-child(3){
+color: #273d46;
+font-weight: bold;
+}
+.share__list li:last-child{
+color: #273d46;
+text-decoration: line-through;
+margin: 0px;
+}
+.share__list li:last-child span{
+  opacity: 0.3;
+}
+.share__button{
+
+}
+.share__link{
+  box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.5);
+  height: 44px;
+  padding: 0px 33px;
+  background-color: #80b7b3;
+  line-height: 44px;
+  border-radius:24px;
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  transition: 0.5s all ease 0s;
+
+}
+
+.share__link span{
+  padding-right: 30px;
+background:url(img/icon/arrow.svg)right no-repeat;
+}
+.share__link:hover{
+  background: #4d2022;
+}
+.share__link:active{
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5);
+  top:3px;
+  position: relative;
+
+}
